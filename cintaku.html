@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, content=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cintaku</title>
+        <link href="/233.css" rel="styesheet"/>
+        
+       
+        
+        
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+            
+            body {
+                background-color: #ffffff;
+
+
+            }
+            .first-page {
+                width: 100%;
+                height: 100vh;
+                box-sizing: border-box;
+            }
+            .first-page-content {
+                width: 100%;
+                height: 90vh;
+                background-color: rgb(255, 255, 255);
+                margin: 0;
+                padding: 0 25px;
+            }
+            
+            .second-page {
+                width: 100%;
+                height: 200vh;
+                
+                
+            }
+
+            h1 {
+                
+                text-transform: capitalize;
+                margin-left: 50px;
+                text-align: center;
+                color: #511F52;
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                
+            
+            }
+            header {
+                height: 10vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 20px;
+                background-color: #ffffff;
+                color: #511F52;
+            }
+            nav{
+                display: flex;
+            }
+            button {
+                margin: 10px;
+                height: 5vh;
+                border-radius: 20px;
+                padding: 0;
+                border: none;
+                background-color: #ffffff;
+                
+                
+            }
+            button:hover {
+                cursor: pointer;
+            }
+                
+            
+            
+                
+            
+            #button-1 span  {
+                font-size: 20px;
+                color: #a987a8;
+                text-transform: capitalize;
+            }
+            #button-2 span {
+                font-size: 20px;
+                color: #A987A8;
+                text-transform: capitalize;
+            }
+            #button-3 span {
+                font-size: 20px;
+                color: #A987A8;
+                text-transform: capitalize;
+            }
+            #button-4 span {
+                font-size: 20px;
+                color: #A987A8;
+                text-transform: capitalize;
+                margin-right: 50px;
+            }
+            #button-1 span:hover {
+                color: #511F52;
+            }
+            #button-2 span:hover {
+                color: #511F52;
+            }
+            #button-3 span:hover {
+                color: #511F52;
+            }
+            #button-4 span:hover {
+                color: #511F52;
+            }
+
+
+            .hero-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 90vh;
+            }
+            .blob-container {
+                
+                width: 49%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .blob {
+                background-image: url(https://imgur.com/a/d29Gn5l);
+                width: 380px;
+                height: 380px;
+                background-size: cover;
+                background-position: center center;
+                margin: 20px;
+                box-shadow: 0 10px 10px 10px rgba(83, 27, 104, 0.5);
+                animation: animate 5s ease-in-out infinite;
+                transition: all 1s ease-in-out;
+                margin-right: 50px;
+
+                
+                
+
+            }
+            @keyframes animate {
+                0%,100%{
+                    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+                }
+                50% {
+                    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+                }
+                
+            }
+            .d1 {
+                width: 50%;
+                text-align: center;
+                
+            }
+            .d1 p {
+                color: #A987A8;
+                font-size: 22px;
+                margin-left: 20px;
+                font-family: "Roboto Condensed", sans-serif;
+                
+                font-weight: 400px;
+                
+                font-style: italic;
+
+            }
+
+            
+            
+            .image-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 20px 10px;
+
+                
+                
+            }
+            .image-container img {
+                
+                width: 100%;
+                max-width: 350px;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 10px;
+                box-shadow: 0px 2px 70px 3px #A987A8;
+
+            }
+            .spacer {
+                
+                aspect-ratio: 960/400;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                
+                
+            }
+            .layer1 {
+                background-image: url("/layer3.svg");
+
+            }
+            
+            .gallery-text {
+                margin-right: auto;
+                margin-left: auto;
+                width: 80%;
+                height: 30vh;
+                background-color: #ffffff;
+                margin-top: -250px;
+            }
+            .gallery-text h2 {
+                text-align: center;
+                color: #511F52;
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                font-size: 35px;
+            }
+            .gallery-text p {
+                font-family: "Roboto Condensed", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400px;
+                font-size: 20px;
+                font-style: italic;
+                color: #A987A8;
+                padding-top: 10px;
+                text-align: center;
+            }
+            .common .blob {
+                display: inline-block;
+                
+            
+            }
+            .third-page {
+                width: 100%;
+                height: 400vh;
+                background-color: #ffffff;
+            }
+            .Azplaylist iframe {
+                width: 50%;
+            }
+            .Azplaylist p {
+                font-family: "Roboto Condensed", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400px;
+                font-size: 20px;
+                font-style: italic;
+                color: #A987A8;
+                padding-top: 10px;
+                text-align: center;
+                margin-top: 150px;
+                margin-left: 75px;
+
+            }
+            .Azplaylist {
+                margin-top: 5em;
+                display: flex;
+                justify-content: space-around;
+
+                
+            
+            }
+            .myplaylist {
+                margin-top: 5em;
+                display: flex;
+                justify-content: space-around;
+            }
+            .myplaylist p {
+                font-family: "Roboto Condensed", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400px;
+                font-size: 20px;
+                font-style: italic;
+                color: #A987A8;
+                padding-top: 10px;
+                text-align: center;
+                margin-top: 150px;
+                margin-right: 75px;
+            }
+            .myplaylist iframe {
+                width: 50%;
+            }
+
+            .favorits-text h2 {
+                margin-top: 50px;
+                text-align: center;
+                color: #511F52;
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                font-size: 35px;
+            }
+            .favorits-text p {
+                font-family: "Roboto Condensed", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400px;
+                font-size: 20px;
+                font-style: italic;
+                color: #A987A8;
+                padding-top: 10px;
+                text-align: center;
+
+            }
+            #ccc {
+                font-family: "Roboto Condensed", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400px;
+                font-size: 30px;
+                font-style: italic;
+                color: #a987a8;
+                padding-top: 10px;
+                text-align: center;
+                margin-top: 75px;
+                margin-bottom: 50px;
+                
+            
+            }
+            .favtracks {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 20px 10px;
+
+            }
+            .favtracks iframe {
+                width: 25%;
+            }
+            .fourth-page {
+                width: 100%;
+                height: 100vh;
+                background: #511F52;
+            }
+            
+            .fourth-page {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+            }
+            .fourth-page section {
+                margin-top: -150px;
+            }
+            .fourth-page section h2 {
+                margin-top: 50px;
+                text-align: center;
+                color: #ffffff;
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                font-size: 35px;
+            }
+
+            
+            .fourth-page section p {
+                width: 55%;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: "Roboto Condensed", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400px;
+                font-size: 20px;
+                font-style: italic;
+                color: #f6f6f7;
+                padding-top: 10px;
+                text-align: center;
+            }
+            .layer2 {
+                background-image: url(/layer-2.svg);
+                margin-top: -200px;
+            }
+            #noncenter {
+                text-align: start;
+                width: 55%;
+
+            }
+            .hearts{
+                font-size: 15px;
+                font-weight: bold;
+                position: absolute;
+                top: -1vh;
+                transform: translateY(0%);
+                left: 0;
+                animation: fall 9s ease-in infinite;
+            }
+            @keyframes fall {
+                0%{
+                    transform: translateY(790vh);
+                }
+                100% {
+                    transform: translateY(880vh);
+                }
+            }
+
+
+
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="first-page">
+            <header>
+                <h1>The world of a princess</h1>
+                <nav>
+                <button id="button-1"><span>Describtion</span></button>
+                <button id="button-2"><span>gallery</span></button>
+                <button id="button-3"><span>favorites</span></button>
+                <button id="button-4"><span>fun</span></button>
+                </nav>
+            </header>
+        <div class="first-page-content">
+            <section class="hero-container">
+                <div class="d1"><p>Meet Zahra, the heartbeat of my world and the light of my life. With her gorgoues personality and unwavering support, she breathe vitality and joy into every moment we share. she brings warmth, kindness, and a profound sense of understanding to our relationship, making every day brighter and every challenge surmountable. Together, we embark on a journey filled with love, laughter, and boundless possibilities.</p></div>
+                <div>
+                    <div class="blob"></div>
+                </div>
+                
+            </section>
+
+        </div>
+        </div>
+        <div class="spacer layer1"></div>
+        <div class="second-page">
+            
+            <div class="gallery-text"><h2>Gallery</h2><p>my most favorite part of this whole web site would be her stunning photos, I am always passionate about seeing her pretty face and in my eyes she the most beautiful of all, having such pretty princess to myself is something that I'm greateful the most<3.</p></div>
+            
+            <div class="image-container">
+                <img src="https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=189671&inputFormat=png&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!wbxfsCMp5k6nqXOi-jW4c4ijWPavKiBLi-9rU9-6sViDfh9z_RvJQokcuxcxOGEZ%2Fitems%2F01M6AJRDIWE6C5DLJGPJFYQ7ERTFCB7AWP%3Ftempauth%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzA3NDE1MjAwIiwiZXhwIjoiMTcwNzQzNjgwMCIsImVuZHBvaW50dXJsIjoieHpyY3dtUzZTMURMeTJjN2tRNlJHcXJUbzZmRnhWRUJwWnArTTdLTDFLUT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE2NCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllqQTFabUpqWXpFdE1qa3lNeTAwWldVMkxXRTNZVGt0TnpOaE1tWmhNelZpT0RjeiIsImFwcF9kaXNwbGF5bmFtZSI6IkNvbnN1bWVyIEFwcDogMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0IiwiYXBwaWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwNDgxNzEwYTQiLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJ1cG4iOiJuaW1ha2luZEBnbWFpbC5jb20iLCJwdWlkIjoiMDAwM0JGRkQzOTJDOTc5QyIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDAwMDNiZmZkMzkyYzk3OWNAbGl2ZS5jb20iLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjE1MjU0OTk5NDcxOTE0MjQ3NDY1IiwidHQiOiIyIiwiaXBhZGRyIjoiMTU0LjIxLjg2LjIwIn0.a1TQ4cHeL4s5MugBJCqITTkji6UCp0aRRM2yV20H2-k%26version%3DPublished&cb=63843018235&encodeFailures=1&width=1306&height=553">
+                <img src="https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=189671&inputFormat=jpeg&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!wbxfsCMp5k6nqXOi-jW4c4ijWPavKiBLi-9rU9-6sViDfh9z_RvJQokcuxcxOGEZ%2Fitems%2F01M6AJRDKC2SU6H2AI3FCJ3WTLZIQNIK7A%3Ftempauth%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzA3NDE1MjAwIiwiZXhwIjoiMTcwNzQzNjgwMCIsImVuZHBvaW50dXJsIjoiY3JXMXpBbVAxeVJ5UmN2TWw1VWxnNUhOVDBqdmsxZlRZdFdlVWZ4SnRsaz0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE2NCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllqQTFabUpqWXpFdE1qa3lNeTAwWldVMkxXRTNZVGt0TnpOaE1tWmhNelZpT0RjeiIsImFwcF9kaXNwbGF5bmFtZSI6IkNvbnN1bWVyIEFwcDogMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0IiwiYXBwaWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwNDgxNzEwYTQiLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJ1cG4iOiJuaW1ha2luZEBnbWFpbC5jb20iLCJwdWlkIjoiMDAwM0JGRkQzOTJDOTc5QyIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDAwMDNiZmZkMzkyYzk3OWNAbGl2ZS5jb20iLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjE1MjU0OTk5NDcxOTE0MjQ3NDY1IiwidHQiOiIyIiwiaXBhZGRyIjoiMTU0LjIxLjg2LjIwIn0.vysYgiaEGbdCpByngPctpMfLRYfMrUo1jPMNEqfzNtI%26version%3DPublished&cb=63843017585&encodeFailures=1&width=1306&height=553">
+                <img src="https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=189671&inputFormat=jpeg&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!wbxfsCMp5k6nqXOi-jW4c4ijWPavKiBLi-9rU9-6sViDfh9z_RvJQokcuxcxOGEZ%2Fitems%2F01M6AJRDKY66MDVLLU3NAZA2KD7KBSCPWO%3Ftempauth%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzA3NDE1MjAwIiwiZXhwIjoiMTcwNzQzNjgwMCIsImVuZHBvaW50dXJsIjoicHhpTUczY3psNFNuSVhFZGcrb2ZPM1ozTVhxTTh2c0FXZG5SM3VjZytpZz0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE2NCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllqQTFabUpqWXpFdE1qa3lNeTAwWldVMkxXRTNZVGt0TnpOaE1tWmhNelZpT0RjeiIsImFwcF9kaXNwbGF5bmFtZSI6IkNvbnN1bWVyIEFwcDogMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0IiwiYXBwaWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwNDgxNzEwYTQiLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJ1cG4iOiJuaW1ha2luZEBnbWFpbC5jb20iLCJwdWlkIjoiMDAwM0JGRkQzOTJDOTc5QyIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDAwMDNiZmZkMzkyYzk3OWNAbGl2ZS5jb20iLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjE1MjU0OTk5NDcxOTE0MjQ3NDY1IiwidHQiOiIyIiwiaXBhZGRyIjoiMTU0LjIxLjg2LjIwIn0.VXUo1D-CSWSD3Li3tauh3B6TMOpkNha-L-UCXKeGItw%26version%3DPublished&cb=63843017874&encodeFailures=1&width=1306&height=553">
+                <img src="https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=189671&inputFormat=jpeg&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!wbxfsCMp5k6nqXOi-jW4c4ijWPavKiBLi-9rU9-6sViDfh9z_RvJQokcuxcxOGEZ%2Fitems%2F01M6AJRDPTQF2Z46643JBKX2CFF6UQXW2T%3Ftempauth%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzA3NDE1MjAwIiwiZXhwIjoiMTcwNzQzNjgwMCIsImVuZHBvaW50dXJsIjoiTTk5eW9hdlpJRGJNNDVlRmlSMmRUd1lBaDlJSFVQbC9MRW5tazFCcHdUaz0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE2NCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllqQTFabUpqWXpFdE1qa3lNeTAwWldVMkxXRTNZVGt0TnpOaE1tWmhNelZpT0RjeiIsImFwcF9kaXNwbGF5bmFtZSI6IkNvbnN1bWVyIEFwcDogMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0IiwiYXBwaWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwNDgxNzEwYTQiLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJ1cG4iOiJuaW1ha2luZEBnbWFpbC5jb20iLCJwdWlkIjoiMDAwM0JGRkQzOTJDOTc5QyIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDAwMDNiZmZkMzkyYzk3OWNAbGl2ZS5jb20iLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjE1MjU0OTk5NDcxOTE0MjQ3NDY1IiwidHQiOiIyIiwiaXBhZGRyIjoiMTU0LjIxLjg2LjIwIn0.kCVA51XSA-cI9kKkHL0EpLep9q7vzNZ8O05ufgnytTU%26version%3DPublished&cb=63843017579&encodeFailures=1&width=1306&height=553">
+                <img src="https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=189671&inputFormat=jpeg&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!wbxfsCMp5k6nqXOi-jW4c4ijWPavKiBLi-9rU9-6sViDfh9z_RvJQokcuxcxOGEZ%2Fitems%2F01M6AJRDNWPTDW2FLKDJHKGTXXIIL3HDRW%3Ftempauth%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzA3NDE1MjAwIiwiZXhwIjoiMTcwNzQzNjgwMCIsImVuZHBvaW50dXJsIjoiUmNxZ2FwSytpc3cwVnFRN0lNTzhLZGtJZ21NTTB0SzYxd1dJenRyUzRBTT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE2NCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllqQTFabUpqWXpFdE1qa3lNeTAwWldVMkxXRTNZVGt0TnpOaE1tWmhNelZpT0RjeiIsImFwcF9kaXNwbGF5bmFtZSI6IkNvbnN1bWVyIEFwcDogMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0IiwiYXBwaWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwNDgxNzEwYTQiLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJ1cG4iOiJuaW1ha2luZEBnbWFpbC5jb20iLCJwdWlkIjoiMDAwM0JGRkQzOTJDOTc5QyIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDAwMDNiZmZkMzkyYzk3OWNAbGl2ZS5jb20iLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjE1MjU0OTk5NDcxOTE0MjQ3NDY1IiwidHQiOiIyIiwiaXBhZGRyIjoiMTU0LjIxLjg2LjIwIn0.ZOU9C1opxGrMl9w3Ip8zm-ftnjTHuwuwKKRQM5F_UZA%26version%3DPublished&cb=63843017581&encodeFailures=1&width=1306&height=553">
+                <img src="https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=189671&inputFormat=png&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!wbxfsCMp5k6nqXOi-jW4c4ijWPavKiBLi-9rU9-6sViDfh9z_RvJQokcuxcxOGEZ%2Fitems%2F01M6AJRDOJFXTZESVQHFFKXQEATI55ARZA%3Ftempauth%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzA3NDE1MjAwIiwiZXhwIjoiMTcwNzQzNjgwMCIsImVuZHBvaW50dXJsIjoiaThKY1oyL1MxQ2JabW1TK1Vaa1BkUHFlUTJTOEpXcDBQaVh3R1VtWHM4ND0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE2NCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllqQTFabUpqWXpFdE1qa3lNeTAwWldVMkxXRTNZVGt0TnpOaE1tWmhNelZpT0RjeiIsImFwcF9kaXNwbGF5bmFtZSI6IkNvbnN1bWVyIEFwcDogMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0IiwiYXBwaWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwNDgxNzEwYTQiLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJ1cG4iOiJuaW1ha2luZEBnbWFpbC5jb20iLCJwdWlkIjoiMDAwM0JGRkQzOTJDOTc5QyIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDAwMDNiZmZkMzkyYzk3OWNAbGl2ZS5jb20iLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjE1MjU0OTk5NDcxOTE0MjQ3NDY1IiwidHQiOiIyIiwiaXBhZGRyIjoiMTU0LjIxLjg2LjIwIn0.fjOGABH_F3pZ7oWnHRyl2WnJ8N1Hr-Vml6cCf0dkVPo%26version%3DPublished&cb=63843018055&encodeFailures=1&width=1306&height=553">
+                <img src="https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=189671&inputFormat=webp&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!wbxfsCMp5k6nqXOi-jW4c4ijWPavKiBLi-9rU9-6sViDfh9z_RvJQokcuxcxOGEZ%2Fitems%2F01M6AJRDKWDZQOAQ4KDJBKUVSPQO74WJGM%3Ftempauth%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzA3NDE1MjAwIiwiZXhwIjoiMTcwNzQzNjgwMCIsImVuZHBvaW50dXJsIjoiZlI3Q0xzcndlK1BCTUpPWURkb28xWXAzSXF2YWlhbFZIdy9zT1A0MmtrQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE2NCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllqQTFabUpqWXpFdE1qa3lNeTAwWldVMkxXRTNZVGt0TnpOaE1tWmhNelZpT0RjeiIsImFwcF9kaXNwbGF5bmFtZSI6IkNvbnN1bWVyIEFwcDogMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0IiwiYXBwaWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwNDgxNzEwYTQiLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJ1cG4iOiJuaW1ha2luZEBnbWFpbC5jb20iLCJwdWlkIjoiMDAwM0JGRkQzOTJDOTc5QyIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDAwMDNiZmZkMzkyYzk3OWNAbGl2ZS5jb20iLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjE1MjU0OTk5NDcxOTE0MjQ3NDY1IiwidHQiOiIyIiwiaXBhZGRyIjoiMTU0LjIxLjg2LjIwIn0.reePB9gi6QgQidAhaunpvkSacy1dDml4jV9imc5y2ig%26version%3DPublished&cb=63843017569&encodeFailures=1&width=521&height=391">
+            </div>
+            
+        </div>
+        
+        <div class="third-page">
+            <div class="favorits-text">
+                
+                <h2>Favorites</h2>
+                <p>time to share some of her interesting favorites, some that set her apart from everyone else making her really special to me, </p>
+                
+            </div>
+            <div class="Azplaylist">
+                <p>One of her favorite playlists</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/18cVaOrwC8Cwy1ePCSTApx?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="myplaylist">
+                
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6qRUoI7KX08WQkujLyCpw5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>my favorite  which describes her<br>and remindes me of her</p>
+
+            </div>
+            <p id="ccc">her top favorite tracks</p>
+            <div class="favtracks">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Q3QRjA8MjzqpFaIkFludb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0yc6Gst2xkRu0eMLeRMGCX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2QZ7WLBE8h2y1Y5Fb8RYbH?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0x7PmByJWVXdeipevd6KZS?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/76Cjty6tzXknSrAJx1kE9n?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/74ndEUEMnDVnv7zcYYSsLm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2iohTvlcBjbzJ8gddFOTqi?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4x5YzxjrF9wvIIXJV7TveC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                
+            </div>
+            <div class="spacer layer2"></div>
+
+            <div class="fourth-page">
+                <section>
+                    <h2> Ending</h2>
+                    <p id="centered"> 
+                        In these precious moments, I just want to express my gratitude to God for bringing you into my life and for the incredible love you've placed in my heart. Having you as my partner, my strong and kind-hearted love, is beyond anything I could have imagined.<br>
+                        
+                        You complete me in the most beautiful way, making me strive to be the best version of myself. Each day with you is a valuable lesson, and you've given my life a whole new meaning. You, my darling, are irreplaceable and hold a special place in my heart.<br>
+                        
+                        Your love is a treasure, and I want you to know that I'll love you no matter what life throws our way. Thank you for being my rock, for making every day brighter, and for being the one who gives my life its most meaningful moments. You are truly precious to me, and my love for you is unwavering.
+                    </p>
+                    <p id="non-center">And at last but not least, Happy Valentine, my pretty princess. <br>
+                        I hope that I can do more for you in upcoming Valentine days. <br>
+                    for ever yours 🤍 <br>
+                    Nima
+                    </p>
+                </section>
+
+            </div>
+            
+
+        </div>
+    </body>
+    <script>
+    function hearts(){
+        const container = document.querySelector('.fourth-page');
+        const creat = document.createElement("div")
+        creat.classList.add('hearts');
+        creat.innerHTML="🤍";
+        creat.style.left = Math.random() * 100 + 'vw' ;
+        creat.style.animationDuration = Math.random()* 3 + 2 + 's' ;
+
+        container.appendChild(creat)
+        setTimeout(() => {
+            creat.remove();
+        }, 3000);
+    
+    }
+    setInterval(hearts,300 );
+    </script>
+
+</html>
